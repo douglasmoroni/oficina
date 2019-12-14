@@ -1,0 +1,18 @@
+a {
+	color: red; 
+	text-decoration: none;
+	font-size: 18px;
+}
+h1 {
+	font-family: helvetica, sans-serif;
+}
+#segundo{
+	color: orange;
+}
+
+body p a.link{ /* Todos os link que estiverem com o A e o P vão ser avetados por eessa regra*/
+	color: green;
+}
+/*
+Comentário
+*/

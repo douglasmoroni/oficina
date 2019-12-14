@@ -1,0 +1,55 @@
+Sbody{
+	font-family: Helvetica, sans-serif;
+}
+a:link, a:visited{ /*Visited: é os link visitado*/
+	color: #ff6600;
+	text-decoration: none; /*Não ficar com nenhuma decoração no texto.*/
+}
+a:hover{ /*Flutuar*/
+	text-decoration: underline; /*Para o menu ficar sublinhado, quando passar a setinha do mouse em cima*/
+
+}
+#wrap{ /*Aqui é para padrão para todos o site*/
+	width: 960px; /* Para definir o largura da "div" area interna da div*/
+	margin: auto; /* Para centralizar automatico, da area externa da div*/
+	background: #e3e3e3;/* Colocar uma cor no fundo*/
+	padding: 10px 20px;
+	overflow: hidden; /*Para encaixar todo o fundo automatico */
+}
+/*header h1{
+	padding: 10px 20px; /*Topo, direita, baixo, esquerda, se for todos igual não precisa definir, apenas colocar um exemplo: padding: 10px,
+						 primeira classe define em cima e baixo e segunda classe define direira e esquerda, exemplo: padding: 10px 20px
+}*/
+header nav ul{
+	list-style: none; /*Para não mostra a bolinhas no lista(menu)*/
+	padding-left: 0; /*Para ficar na mesma linha do h1 acima "0" para ficar alinhado*/
+}
+header nav ul li{
+	display: inline-block; /*Para mostrar em linha um do lado do outro.*/
+	margin-right: 10px; /*Distancia dos menus*/
+}
+header nav ul li a{
+	font-size: 18px; /*Tamanho fonte*/
+}
+header nav ul li a:hover{
+}
+#content{
+	float: left; /*definir o lado do dos content é o conteúdo da pagina*/
+	width: 660px;
+
+}
+#sidebar{
+	float: right;
+	width: 300px;
+}
+#sidebar ul{
+	list-style: none;
+}
+#sidebar ul li a{
+}
+
+#sidebar ul li a:hover{
+}
+footer{
+	clear: both; /*Vai limpar as flutuação e vai voltar para o lugar certo. */
+}
